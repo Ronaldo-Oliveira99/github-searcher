@@ -5,7 +5,7 @@ export default function Header({ onChange, onKeyPress, erro, input }) {
   return (
     <div>
       <div>
-        <h2>GitHub</h2>
+        <h2>GitHub Seacher</h2>
         <h4>Veja os repositórios do seu usuário favorito!</h4>
       </div>
 

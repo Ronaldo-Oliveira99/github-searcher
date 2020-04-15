@@ -1,24 +1,41 @@
 * {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: monospace, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+html {
+  margin: 100px 0;
+  padding: 0;
+}
 .principal {
-  margin: 0 auto;
-  width: 30%;
+  margin: 50px auto;
+  width: 40%;
   text-align: center;
   display: flex;
   flex-direction: column;
+  border: 2px darkgray solid;
+  border-radius: 5px;
+  padding: 20px;
 }
 .pcard {
-  margin: 5px auto;
+  margin: 20px auto;
   background-color: rgb(243, 239, 239);
   width: 100%;
   text-align: center;
   padding: 25px;
+  border-radius: 5px;
+  border-bottom: thin;
 }
 
 .avatar {
   width: 50px;
   height: 50px;
+}
+h2 {
+  color: gray;
+}
+@media only screen and (max-width: 500px) {
+  .principal {
+    margin: 0 auto;
+    width: 80%;
+  }
 }
